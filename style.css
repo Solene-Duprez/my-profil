@@ -1,0 +1,100 @@
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #002E94;
+	padding: 20px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	border-radius: 6px;
+}
+
+.card-white{
+	background: floralwhite;
+	padding:  20px;
+	margin: 10px;
+	border-radius: 6px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+#card-name{
+	font-size: 54px;
+}
+
+h1 {
+	color: #002E94;
+}
+
+#contact{
+	background: floralwhite;
+	padding:  10px;
+	margin: 20px;
+	border-radius: 6px;
+	box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover {
+	color: #243389; font-size: 12px;
+}
+
+/*média queries*/
+
+@media (max-width:720px){
+	.container{
+		background-color: #8BBCCC;
+	}
+}
+
+@media (max-width:900px){
+	.container{
+		width: 270px;
+	}
+}
+
+.btn-blue {
+	background-color:#8BBCCC;
+	color:  white;
+	padding: 10px 24px;
+	border-radius: 6px;
+	font-weight: bolder;
+}
+
+.btn-green{
+	color: #8BBCCC;
+	padding: 5px 10px;
+	border-radius: 6px;
+	font-weight: bolder;
+	font-size: 32px;
+}
+
+li {
+	display: inline;
+}
+
+ul {
+	padding: 0;
+}
+
+body{
+background-image: url(images/fondpapier.jpg);
+}
+
+
+
+
+
+
+
+
